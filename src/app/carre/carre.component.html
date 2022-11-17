@@ -1,0 +1,15 @@
+<!--<body [ngStyle]="{ backgroundColor:color}">-->
+<div [class]="carre"  [ngStyle]="{ backgroundColor:color}" >
+  <div >
+  <div class="col2">
+    <app-rouge (changeBgColorEvent)="changeColor($event)"></app-rouge>
+    <app-bleu (changeBgColorEvent)="changeColor($event)"></app-bleu>
+  </div>
+  <div class="col1">
+    <app-vert (changeBgColorEvent)="changeColor($event)"></app-vert>
+    <app-orange (changeBgColorEvent)="changeColor($event)"></app-orange>
+  </div>
+</div>
+</div>
+<!--</body>-->
+
